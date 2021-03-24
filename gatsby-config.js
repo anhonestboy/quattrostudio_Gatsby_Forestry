@@ -13,10 +13,13 @@ module.exports = {
     infoData: infoData
   },
   plugins: [
-    "gatsby-plugin-sass",
+    `gatsby-plugin-postcss`,
     "gatsby-transformer-remark",
     "gatsby-plugin-react-helmet",
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-dark-mode`,
     "gatsby-transformer-yaml",
+    `gatsby-plugin-sharp`,
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -50,6 +53,14 @@ module.exports = {
       options: {
         defaultQuality: 75
       }
+    },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /\.inline\.svg$/
+        }
+      },
     },
     `gatsby-transformer-sharp`,
     {

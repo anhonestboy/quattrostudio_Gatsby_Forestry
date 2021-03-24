@@ -1,27 +1,29 @@
 import React from "react"
-import Header from "./Header"
+// import Header from "./header/header";
 import Helmet from "react-helmet"
 import useSiteMetadata from "../static_queries/useSiteMetadata"
-import layoutStyles from "../styles/components/layout.module.scss"
 
 export default function Layout(props) {
   const { title, description } = useSiteMetadata()
   return (
-    <section
-      className={`${layoutStyles.layout} ${
-        props.page === "info" && 
-        layoutStyles.info_page}`}
-      style={{
-        backgroundColor: props.bgColor,
-      }}
-    >
-      <Helmet>
-        <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
-      </Helmet>
-      <Header page={props.page} title={title} />
-      <div className={layoutStyles.content}>{props.children}</div>
-    </section>
+    <>
+    <Helmet>
+      <link rel="stylesheet" href="https://use.typekit.net/jgd3urv.css" />
+    </Helmet>
+
+
+
+    <div className=""></div>
+
+    <footer className="">
+      <div className="">
+        <div className="">
+          &copy; {new Date().getFullYear()}, Built with{" "}
+          <a href="https://www.sanity.io">Sanity</a> &amp;{" "}
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </div>
+      </div>
+    </footer>
+  </>
   )
 }
