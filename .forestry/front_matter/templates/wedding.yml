@@ -54,10 +54,10 @@ fields:
         path: 
     label: Category
   label: Catoegories
-- name: content
+- name: story
   type: field_group_list
   fields:
-  - name: story
+  - name: columns
     type: field_group_list
     fields:
     - name: content
@@ -73,12 +73,12 @@ fields:
       min: 
       max: 
       labelField: 
-    label: Story
+    label: Columns
   config:
     min: 
     max: 
     labelField: 
-  label: Content
+  label: Story
 - name: image___text
   type: field_group_list
   fields:
