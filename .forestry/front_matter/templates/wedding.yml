@@ -103,5 +103,17 @@ fields:
     max: 
     labelField: 
   label: Image + Text
+- name: image_gallery
+  type: field_group_list
+  fields:
+  - name: gallery
+    type: image_gallery
+    config: {}
+    label: Gallery
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Image Gallery
 pages:
 - content/weddings/wedding-in-amalfi-coast-at-agriturismo-sant-alfonso-in-furore.md
