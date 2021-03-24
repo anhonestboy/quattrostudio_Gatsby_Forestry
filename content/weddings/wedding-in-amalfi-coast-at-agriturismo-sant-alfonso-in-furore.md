@@ -25,7 +25,13 @@ catoegories:
   parent_category: ''
   category: ''
 image___text: []
-image_gallery: []
+image_gallery:
+- gallery:
+  - "/v1616626843/MaryMaurizio-0014_t9pqst.jpg"
+  - "/v1616626843/MaryMaurizio-0013_cusryc.jpg"
+  - "/v1616626843/MaryMaurizio-0012_tproyl.jpg"
+  - "/v1616626843/MaryMaurizio-0011_bqq8xi.jpg"
+  - "/v1616626843/MaryMaurizio-0010_iuylrb.jpg"
 story:
 - columns:
   - content: |-
