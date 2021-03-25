@@ -56,30 +56,13 @@ fields:
     label: Category
   label: Catoegories
 - name: story
-  type: field_group_list
-  fields:
-  - name: columns
-    type: field_group_list
-    fields:
-    - name: content
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: true
-        schema:
-          format: markdown
-      label: Content
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: Columns
+  type: blocks
+  label: Story
+  template_types:
+  - two-columns-layout
   config:
     min: 
     max: 
-    labelField: 
-  label: Story
 - name: image___text
   type: field_group_list
   fields:
