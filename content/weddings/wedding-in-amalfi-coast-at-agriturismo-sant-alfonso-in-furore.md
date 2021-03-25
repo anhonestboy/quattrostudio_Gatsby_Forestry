@@ -1,7 +1,7 @@
 ---
 category: ''
 title: Wedding in Amalfi Coast at Agriturismo Sant’Alfonso in Furore
-date: 2020-06-09T22:00:00Z
+date: 2020-06-09T22:00:00.000+00:00
 cover_image: "/v1616625898/MaryMaurizio-0019_wv0sxw.jpg"
 content:
 - story:
@@ -22,8 +22,8 @@ content:
 
       A classical Italian home with vineyards and a cozy atmosphere has been the ideal scenery of a day that was filled with emotional moments and rustic elegance. The private little chapel of the property has been the perfect frame for their traditional Greek wedding ceremony. We cried, we laughed.
 catoegories:
-  parent_category: ''
-  category: ''
+  parent_category: Wedding
+  category: Amalfi Coast
 image___text: []
 image_gallery:
 - gallery:
