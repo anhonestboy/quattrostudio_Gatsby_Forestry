@@ -68,6 +68,11 @@ fields:
 - name: image_gallery
   type: field_group_list
   fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
   - name: gallery
     type: image_gallery
     config: {}
