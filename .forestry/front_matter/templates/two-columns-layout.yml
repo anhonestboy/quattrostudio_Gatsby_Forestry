@@ -1,4 +1,22 @@
 ---
 label: Two columns layout
 hide_body: true
-fields: []
+fields:
+- name: column_one
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Column One
+- name: column_two
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Column Two
