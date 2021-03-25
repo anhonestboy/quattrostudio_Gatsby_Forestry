@@ -41,19 +41,8 @@ fields:
         path: 
     label: Parent Category
   - name: category
-    type: select
+    type: tag_list
     default: []
-    config:
-      required: false
-      options:
-      - Amalfi Coast
-      - Tuscany
-      - Como Lake
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
     label: Category
   label: Catoegories
 - name: story
