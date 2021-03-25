@@ -23,8 +23,14 @@ story:
     Congratulations and our biggest thanks to Jordan & Nicolas for sharing their gorgeous wedding with us, it has been such a pleasure to be there.
 
     Ceremony and Reception Venue: [Agriturismo Sant’Alfonso](https://www.agriturismosantalfonso.it/) Furore, Amalfi Coast // Flower Designer: Franco Acampora
+  two_column_one: ''
+  two_column_two: ''
 - template: one-column-layout
   one_column: One column layout here
+- template: _three-columns-layout
+  three_column_one: ''
+  three_column_two: ''
+  three_column_three: ''
 image___text: []
 image_gallery:
 - gallery:
@@ -35,5 +41,6 @@ image_gallery:
   - "/v1616626843/MaryMaurizio-0012_tproyl.jpg"
   - "/v1616626843/MaryMaurizio-0014_t9pqst.jpg"
   - "/v1616626843/MaryMaurizio-0013_cusryc.jpg"
+  title: ''
 
 ---
