@@ -11,6 +11,10 @@ story:
 - template: two-columns-layout
   two_column_one: One
   two_column_two: Two
+- template: _three-columns-layout
+  three_column_one: One
+  three_column_two: Two
+  three_column_three: Three
 image___text: []
 image_gallery:
 - gallery:
