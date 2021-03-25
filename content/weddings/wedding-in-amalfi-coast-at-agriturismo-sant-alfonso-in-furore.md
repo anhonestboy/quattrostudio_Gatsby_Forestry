@@ -28,9 +28,9 @@ story:
 - template: one-column-layout
   one_column: One column layout here
 - template: _three-columns-layout
-  three_column_one: ''
-  three_column_two: ''
-  three_column_three: ''
+  three_column_one: one
+  three_column_two: two
+  three_column_three: three
 image___text: []
 image_gallery:
 - gallery:
