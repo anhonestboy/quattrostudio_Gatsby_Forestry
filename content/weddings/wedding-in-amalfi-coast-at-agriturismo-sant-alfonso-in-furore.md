@@ -24,7 +24,7 @@ story:
 
     Ceremony and Reception Venue: [Agriturismo Sant’Alfonso](https://www.agriturismosantalfonso.it/) Furore, Amalfi Coast // Flower Designer: Franco Acampora
 - template: one-column-layout
-  one_column: ''
+  one_column: One column layout here
 image___text: []
 image_gallery: []
 
