@@ -2,7 +2,7 @@
 label: _Two columns layout
 hide_body: true
 fields:
-- name: column_one
+- name: two_column_one
   type: textarea
   default: ''
   config:
@@ -11,7 +11,7 @@ fields:
     schema:
       format: markdown
   label: Column One
-- name: column_two
+- name: two_column_two
   type: textarea
   default: ''
   config:
