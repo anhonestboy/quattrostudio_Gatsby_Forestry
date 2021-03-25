@@ -1,4 +1,31 @@
 ---
 label: _Three columns layout
 hide_body: true
-fields: []
+fields:
+- name: three_column_one
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Column One
+- name: three_column_two
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Column Two
+- name: three_column_three
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Column Three
