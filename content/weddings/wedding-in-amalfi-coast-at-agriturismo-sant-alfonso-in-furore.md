@@ -15,6 +15,8 @@ story:
   three_column_one: One
   three_column_two: Two
   three_column_three: Three
+- template: image
+  image: "/v1616624094/MaryMaurizio-0002_qw3soi.jpg"
 image___text: []
 image_gallery:
 - gallery:
