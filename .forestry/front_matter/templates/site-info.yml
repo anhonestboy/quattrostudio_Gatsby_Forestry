@@ -11,5 +11,25 @@ fields:
 - type: text
   name: repository_url
   label: repository_url
+- name: social
+  type: field_group
+  config: {}
+  fields:
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: Facebook
+  - name: pinterest
+    type: text
+    config:
+      required: false
+    label: Pinterest
+  label: Social
 pages:
 - config.json
