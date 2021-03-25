@@ -59,6 +59,7 @@ fields:
   type: blocks
   label: Story
   template_types:
+  - one-column-layout
   - two-columns-layout
   config:
     min: 
