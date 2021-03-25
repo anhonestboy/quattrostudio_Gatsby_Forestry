@@ -61,6 +61,7 @@ fields:
   template_types:
   - one-column-layout
   - two-columns-layout
+  - _three-columns-layout
   - image
   config:
     min: 
