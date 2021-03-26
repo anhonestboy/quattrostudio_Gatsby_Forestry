@@ -6,7 +6,7 @@ catoegories:
   - Como
 title: Wedding in Amalfi Coast at Agriturismo Sant’Alfonso in Furore
 date: 2021-03-02T23:00:00Z
-cover_image: http://qsassets.s3-website.us-east-2.amazonaws.com/quattrostudio_images/download.jpg
+cover_image: http://qsassets.s3-website.us-east-2.amazonaws.com/quattrostudio_images/AlexandraHome.jpg
 story:
 - template: one-column-layout
   one_column: One
