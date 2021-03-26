@@ -22,6 +22,7 @@ story:
 image___text: []
 image_gallery:
 - gallery:
+  - http://qsassets.s3-website.us-east-2.amazonaws.com/quattrostudio_images/041019ForeverYoung0010.jpg
   - http://qsassets.s3-website.us-east-2.amazonaws.com/quattrostudio_images/download.jpg
   - http://qsassets.s3-website.us-east-2.amazonaws.com/quattrostudio_images/071117HOME-SESSION0001.jpg
   title: ''
