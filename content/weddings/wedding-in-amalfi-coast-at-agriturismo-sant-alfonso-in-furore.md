@@ -21,7 +21,9 @@ story:
   image: "/v1616624094/MaryMaurizio-0002_qw3soi.jpg"
 image___text: []
 image_gallery:
-- gallery: []
+- gallery:
+  - http://qsassets.s3-website.us-east-2.amazonaws.com/quattrostudio_images/download.jpg
+  - http://qsassets.s3-website.us-east-2.amazonaws.com/quattrostudio_images/071117HOME-SESSION0001.jpg
   title: ''
 
 ---
