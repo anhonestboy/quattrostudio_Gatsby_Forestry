@@ -32,7 +32,7 @@ sections:
 - type: document
   path: config.json
   label: Site Info
-upload_dir: quattrostudio_images
+upload_dir: http://qsassets.s3-website.us-east-2.amazonaws.com/quattrostudio_images
 public_path: http://qsassets.s3-website.us-east-2.amazonaws.com/quattrostudio_images
 front_matter_path: http://qsassets.s3-website.us-east-2.amazonaws.com/quattrostudio_images
 use_front_matter_path: false
