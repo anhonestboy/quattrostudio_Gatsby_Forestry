@@ -34,8 +34,8 @@ sections:
   label: Site Info
 upload_dir: quattrostudio_images
 public_path: http://qsassets.s3-website.us-east-2.amazonaws.com/quattrostudio_images
-front_matter_path: ''
-use_front_matter_path: 
+front_matter_path: http://qsassets.s3-website.us-east-2.amazonaws.com/quattrostudio_images
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: public
