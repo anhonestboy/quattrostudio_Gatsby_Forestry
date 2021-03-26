@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weddings",
+  "info": {
+    "name": "Wedding",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "Story": {
+      "type": "richtext"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "weddings"
+    },
+    "cover_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

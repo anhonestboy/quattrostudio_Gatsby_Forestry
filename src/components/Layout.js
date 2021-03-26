@@ -1,9 +1,10 @@
 import React from "react"
-// import Header from "./header/header";
+import Header from "./header/header";
 import Helmet from "react-helmet"
 import useSiteMetadata from "../static_queries/useSiteMetadata"
+import "../styles/layout.css";
 
-export default function Layout(props) {
+export default function Layout({ children }) {
   const { title, description } = useSiteMetadata()
   return (
     <>
@@ -12,17 +13,11 @@ export default function Layout(props) {
     </Helmet>
 
 
+    
+    <Header title={title} />
+    <div className="">{children}</div>
 
-    <div className=""></div>
-
-    <footer className="">
-      <div className="">
-        <div className="">
-          &copy; {new Date().getFullYear()}, Built with{" "}
-          <a href="https://www.sanity.io">Sanity</a> &amp;{" "}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </div>
-      </div>
+    <footer>
     </footer>
   </>
   )

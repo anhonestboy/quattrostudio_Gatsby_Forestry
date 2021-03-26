@@ -1,6 +1,7 @@
 const config = require("./config.json")
 const infoData = require("./content/data/info.json")
 
+
 module.exports = {
   //this makes the site config available to forestry cms
   siteMetadata: {
@@ -14,24 +15,31 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-postcss`,
-    "gatsby-transformer-remark",
-    "gatsby-plugin-react-helmet",
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-dark-mode`,
-    "gatsby-transformer-yaml",
-    `gatsby-plugin-sharp`,
+    `gatsby-transformer-yaml`,
+    `gatsby-plugin-sharp`, 
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "src",
         path: `${__dirname}/src/`,
       },
-    },
+    },   
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "posts",
         path: `${__dirname}/content/posts`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "weddings",
+        path: `${__dirname}/content/weddings`
       }
     },
     {
@@ -62,21 +70,15 @@ module.exports = {
         }
       },
     },
-    `gatsby-transformer-sharp`,
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: "gatsby-source-strapi",
       options: {
-        plugins: [
-          "gatsby-remark-relative-images",
-          "gatsby-remark-normalize-paths",
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 1000,
-              linkImagesToOriginal: false,
-            },
-          },
+        apiURL: "http://localhost:1337",
+        contentTypes: [
+          "wedding",
+          "category",
         ],
+        queryLimit: 1000,
       },
     },
   ],
