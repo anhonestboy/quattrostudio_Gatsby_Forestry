@@ -32,7 +32,7 @@ sections:
 - type: document
   path: config.json
   label: Site Info
-upload_dir: ''
+upload_dir: content/images
 public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
