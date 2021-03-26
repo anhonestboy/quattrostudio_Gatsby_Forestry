@@ -21,14 +21,7 @@ story:
   image: "/v1616624094/MaryMaurizio-0002_qw3soi.jpg"
 image___text: []
 image_gallery:
-- gallery:
-  - "/v1616624094/MaryMaurizio-0002_qw3soi.jpg"
-  - "/v1616625898/MaryMaurizio-0019_wv0sxw.jpg"
-  - "/v1616626843/MaryMaurizio-0010_iuylrb.jpg"
-  - "/v1616626843/MaryMaurizio-0011_bqq8xi.jpg"
-  - "/v1616626843/MaryMaurizio-0012_tproyl.jpg"
-  - "/v1616626843/MaryMaurizio-0014_t9pqst.jpg"
-  - "/v1616626843/MaryMaurizio-0013_cusryc.jpg"
+- gallery: []
   title: ''
 
 ---
